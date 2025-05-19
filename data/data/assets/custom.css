@@ -1,0 +1,52 @@
+/* Custom CSS for Baikal Dashboard */
+body {
+    font-family: 'Roboto', 'Segoe UI', 'Helvetica Neue', sans-serif;
+    color: #343a40;
+}
+
+.nav-tabs .nav-link.active {
+    font-weight: bold;
+    border-top: 3px solid #1f77b4;
+}
+
+.card {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.card-header {
+    font-weight: bold;
+    letter-spacing: 0.5px;
+}
+
+h1, h2, h3, h4, h5 {
+    font-weight: 600;
+}
+
+.dash-graph {
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+footer {
+    margin-top: 2rem;
+    padding: 1rem 0;
+    font-size: 0.9rem;
+}
+
+/* Make sure the plotly graphs have nice margins */
+.js-plotly-plot .plotly {
+    margin: 0 auto;
+}
+
+/* Make the tab hover effects nicer */
+.nav-tabs .nav-link:hover {
+    background-color: rgba(31, 119, 180, 0.1);
+    transition: background-color 0.3s;
+}
+
+/* Enhance cards with a subtle hover effect */
+.card:hover {
+    transform: translateY(-2px);
+    transition: transform 0.3s;
+} 
